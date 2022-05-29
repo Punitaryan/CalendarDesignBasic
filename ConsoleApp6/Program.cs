@@ -13,6 +13,7 @@ namespace ConsoleApp6
             str = Console.ReadLine();
             String outputCalendarFormat = designCalen(str);
             Console.Out.WriteLine(outputCalendarFormat);
+           Console.ReadKey();
         }
         static String designCalen(String str)
         {
