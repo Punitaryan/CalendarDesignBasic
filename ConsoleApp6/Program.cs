@@ -7,12 +7,12 @@ namespace ConsoleApp6
     {
         static void Main(string[] args)
         {
-            // Input - 02 April 2020
-            // Output - 2020-04-02
+            // Input format - 02 April 2020
+            // Output format - 2020-04-02
             String str;
             str = Console.ReadLine();
-            String out_ = designCalen(str);
-            Console.Out.WriteLine(out_);
+            String outputCalendarFormat = designCalen(str);
+            Console.Out.WriteLine(outputCalendarFormat);
         }
         static String designCalen(String str)
         {
